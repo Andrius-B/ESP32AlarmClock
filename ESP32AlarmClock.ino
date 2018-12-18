@@ -22,8 +22,8 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 
 
-char *ssid      = "Radviles";               // Set you WiFi SSID
-char *password  = "VapeNation";               // Set you WiFi password
+char *ssid      = "UHHHH";               // Set you WiFi SSID
+char *password  = "WIFI HERE";               // Set you WiFi password
 
 
 ESP32Encoder encoder;
@@ -130,4 +130,3 @@ void readEncoder(){
 void encoderValueChanged(int32_t deltaSteps){
   sm.encoderRotated(deltaSteps);
 }
-
